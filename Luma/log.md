@@ -1,10 +1,11 @@
-A1 >> a completely ready-made tokenizer has been written.
 
-A2 >> the core of the language is almost formed.
+### ```A1``` >> a completely ready-made tokenizer has been written.
 
-A3 >> a fully working parser is ready.
+### ```A2``` >> the core of the language is almost formed.
 
-A4 >> added support for importing Python self-written modules (but only functions can be imported).
+### ```A3``` >> a fully working parser is ready.
+
+### ```A4``` >> added support for importing Python self-written modules (but only functions can be imported).
 
 Here is an example of a function translated from python to Luma
 ```python
@@ -25,3 +26,16 @@ def _(arg: luma_values.ValueConstruct):
     )
 ```
 and this is how this file is imported.
+```cs
+using "libs/math" (py);
+
+let a = math.sin(180);
+```
+```(py)``` at the end means that when downloading this file, the standard python module loader will be used
+
+### ```A5``` added the ability to create mutable and non-mutable variables using the keyword ```mut```.
+```cs
+let a = 10;             // Not mutable
+let mut name = "John";  // Mutable
+```
+### ```A5``` added the ability to create mutable and non-mutable variables using the keyword ```mut```.
