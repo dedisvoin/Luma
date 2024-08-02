@@ -70,6 +70,8 @@ let mul = lambda(a, b) {
 stdlib.print(mul(2, 3)); // this code printed 6!
 ```
 
+---
+
 ### ```A8``` added simple for loops.
 ```cs
 using 'libs/stdlib' (py);
@@ -78,4 +80,24 @@ for (let i; i <= 10; i = i + 1;) {
     stdlib.println(i, );
 };
 // this code print 0  1  2  3  4  5  6  7  8  9  10
+```
+
+---
+
+### ```A9``` it is also possible create standart functions.
+```cs
+using 'libs/stdlib' (py);
+
+let print_all_nums = fun (start_num, nums_count) {
+    stdlib.print("start_num:", start_num, "nums_count:", nums_count);
+    for (let mut i = start_num; i <= nums_count; i = i + 1;) {
+        stdlib.println(i, ' ');
+    };
+    stdlib.print("");
+    stdlib.print("printed finished!");
+};
+
+print_all_nums(1, 10); // printed nums 1 - 10
+stdlib.print("");
+print_all_nums(5, 20); // printed nums 5 - 20
 ```
