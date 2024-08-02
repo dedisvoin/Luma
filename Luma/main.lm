@@ -1,0 +1,11 @@
+using "libs/stdlib" (py);
+
+
+let print_iter = fun(number) {
+    for (let a; a <= number; a = a + 1;) {
+        stdlib.print(a);
+    };
+};
+
+
+print_iter(10);
