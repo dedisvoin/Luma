@@ -1,0 +1,24 @@
+using 'libs/python/stdlib' (py);
+
+let mut greet = fun (name) -> {
+    |> 'Hello, ' + name + '!';
+};
+
+let mut age = 25;
+
+stdlib.print(greet('Alice'));
+stdlib.print('You are ' + stdlib.str(age) + ' years old.');
+
+let mut is_adult = fun (years) -> {
+    if (years >= 18) {
+        |> true;
+    } else {
+        |> false;
+    };
+};
+
+if (is_adult(age)) {
+    stdlib.print('You are an adult.');
+} else {
+    stdlib.print('You are not an adult yet.');
+};
