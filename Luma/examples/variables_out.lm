@@ -1,0 +1,6 @@
+var little_data = "What is it?";
+out little_data;
+out '-'*10;
+var big_data = "hello, my name is John
+ I am 10 years old.";
+out big_data;

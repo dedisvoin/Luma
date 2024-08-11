@@ -1,0 +1,9 @@
+var diapozon_1 = ~[0 -> 10];
+out diapozon_1;
+
+var diapozon_2 = ~[10 -> 0 : -2];
+out diapozon_2;
+
+
+var diapozon_3 = ~['a' -> 'g'];
+out diapozon_3;

@@ -1,0 +1,7 @@
+var name;
+val age;
+
+var mut age = 10 * 20;
+var mut name = "John";
+
+var data = "hello, " + name;

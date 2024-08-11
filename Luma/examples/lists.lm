@@ -1,0 +1,7 @@
+val datas = [
+    ["Ivan", 18],
+    ["John", 10],
+    ["Mary", 15],
+];
+
+out datas;

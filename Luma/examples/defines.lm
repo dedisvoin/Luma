@@ -1,0 +1,5 @@
+$define PI (3.141592);
+
+var pi = PI;
+
+out pi, PI;

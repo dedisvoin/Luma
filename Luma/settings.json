@@ -1,0 +1,33 @@
+{
+   "name": "Luma",
+   "path": "compiler",
+   "out_path": "versions",
+   "description": "A simple programming language writed to python",
+   "version": "0.2.3",
+   "version_auto": true,
+   "version_signature": "dev",
+   "what_new": {
+      "1": "Started write this language",
+      "2": "Added basic analizer",
+      "3": "Added debug messages for tokenize",
+      "4": "Added debug messages for analize and file loading",
+      "5": "Added basic memory and more functions",
+      "6": "Added base luma types",
+      "7": "Start adding basic nodes",
+      "8": "Start write parser",
+      "9": "Added pretty exceptions",
+      "10": "Added mathematic operations",
+      "11": "Fixed tokenizer bag (tokens position error mathing)",
+      "12": "Adding full operators",
+      "13": "Adding 'out' macros",
+      "14": "Start adding list",
+      "15": "Add execute exception description",
+      "16": "Added number and char diapozon generators",
+      "17": "diapozon generators beta finished",
+      "18": "Start adding preprocessors (added 'define' command)",
+      "19": "Start adding lambdas",
+      "20": "Refactoring Values generatoin",
+      "21": "Start lambdas calling creating",
+      "22": "Starting Add test update to memory and memory objects"
+   }
+}
